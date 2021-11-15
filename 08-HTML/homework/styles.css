@@ -1,0 +1,10 @@
+#spanId {
+    margin: 50px;
+}
+
+#thirdDiv {
+    padding: 50px;
+    border: 5px;
+    border-color: orange;
+    border-style: dotted;
+}
