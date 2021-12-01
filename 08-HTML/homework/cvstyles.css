@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    display: flex;
+}
+
+.center {
+    display: flex;
+    background-color: aqua;
+    border: 5px groove grey;
+}
+
+.left {
+    display: flex;
+    background-color: coral;
+    border: 5px groove grey;
+    order: -1;
+}
+
+.right {
+    display: flex;
+    background-color: darkseagreen;
+    border: 5px groove grey;
+    order: 1;
+}
+
+.center,
+.left,
+.right {
+    display: inline-flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.title {
+    padding: 5px;
+}
+
+.foto {
+    position: relative;
+    left: 80px;
+    padding: 0 20px;
+    width: 50%;
+    height: 50%;
+}
+
+.desc {
+    position: relative;
+    top: 15%;
+}
+
+.list {
+    position: relative;
+    top: 40%;
+}
